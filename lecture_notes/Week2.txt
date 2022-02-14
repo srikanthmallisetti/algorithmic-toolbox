@@ -1,0 +1,50 @@
+Week 2
+Why Study Algorithms
+--Fibonacci Numbers
+--Euclidean GCD
+
+Big-O Notation
+--Measuring run times of an algorithm by the number of lines of codes executed isn't an astute way
+
+--On the other hand, trying to get a very accurate run time depends on various factors too, like the interpreter used,
+    the computer's system architecture, speed of the processors etc.
+
+--Generally, lookups into RAMs and further into disks (Page Lists) are going to cost the program more,
+    than cache or registers lookups
+
+--We would want a near estimate of how our algorithms' performances scale for very large inputs
+
+
+Asymptotic Notation
+--Since all the computation issues differ by some large constant, we measure runtimes in a way that ignores this const.
+
+--Asymptotic runtimes - how does the runtimes scale with input sizes?
+
+-- log n < sqrt(n) < n < n.log n < n^2 < 2^n
+
+Big-O Notation
+-- f(n) = O(g(n)) if constants N and c such that n >= N, f(n) <= c.g(n)
+    Ex: 3(n^2) + 5(n) + 2 = O(n^2); Ex: n + log n + sin(n) = O(n); Ex: 4n. log n + 7 = O(n. log n)
+
+-- Big-O notation clarifies growth rate (WARN: loses any const. multiples and is only asymptotic)
+
+Using Big-O Notation
+-- Common Rules
+    Multiplicative constants can be omitted
+
+    A Big-O notation with larger exponent grows faster
+        Ex: n = O(n^2), sqrt(n) = O(n)
+
+    (n^a) (polynomial) is faster than (b^n) (exponential)
+        Ex: (n^5) = O(sqrt(n)^n), n^100 = O(1^n)
+
+    Any power of log n grows slower than any power of n
+        Ex: (log n)^a = O(sqrt(n)), n. log n = O(n^2)
+
+    Smaller terms can be omitted
+        Ex: n^2 + n = O(n^2), 2^n + n^9 = O(2^n)
+
+Common Algorithmic Techniques
+-- Greedy Algorithms, Divide and Conquer, Dynamic Programming
+
+-- Levels of Design - Naive Algorithm, Apply Standard Algorithm Techniques, Optimize Algorithm, Unique Insight

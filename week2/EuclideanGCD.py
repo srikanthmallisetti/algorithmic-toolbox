@@ -7,4 +7,5 @@ def euclidean_gcd(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    print(euclidean_gcd(357, 234))
+    i1, i2 = map(int, input().split())
+    print(euclidean_gcd(i1, i2))
