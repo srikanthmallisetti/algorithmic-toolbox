@@ -1,0 +1,11 @@
+Week 3
+
+Greedy Algorithms
+ - Practice Implementing Greedy Solutions
+ - Build Greedy Algorithms
+
+Greedy Choices are natural ways of solving any problem
+
+Safe Moves are the optimal greedy choices to successfully solve problems
+
+- Forming Largest Number and Car Refuelling Problem

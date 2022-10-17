@@ -12,5 +12,5 @@ def FibonacciFast(n: int) -> int:
 
 
 if __name__ == '__main__':
-    for x in range(46):
+    for x in range(100):
         print("{} -> {}".format(x, FibonacciFast(x)))
